@@ -9,8 +9,7 @@ class Player
   end
 
   def lose_life              
-    @lives -= 1 
-    puts "You lost a life, and have #{@lives} left."   
+    @lives -= 1  
   end
 
   def still_alive?
