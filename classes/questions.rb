@@ -10,6 +10,13 @@ class Question
   end
 
   def correct?(guess)
-    @guess == @answer
+    guess.to_i == @answer
   end
 end
+
+
+=begin
+q1 = Question.new
+puts q1.number1, q1.number2, q1.answer
+puts q1.correct?(q1.answer)
+=end
