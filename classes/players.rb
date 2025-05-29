@@ -10,7 +10,7 @@ class Player
 
   def lose_life              
     @lives -= 1 
-    puts "Oh no, you lost a life! You have #{@lives} left."   
+    puts "You lost a life, and have #{@lives} left."   
   end
 
   def still_alive?
